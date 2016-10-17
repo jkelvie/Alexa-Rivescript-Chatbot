@@ -11,7 +11,7 @@
     "node": "4.4.7"
   },
   "scripts": {
-    "pretest": "cd ../src && bstpy -l index.lambda_handler &",
+    "pretest": "cd ../src && bstpy index.lambda_handler &",
     "test": "mocha '*-test.js'",
     "posttest": "pkill -f bstpy"
   }
