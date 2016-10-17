@@ -1,0 +1,16 @@
+{
+  "name": "Alexa-Rivescript-Chatbot-Functional-Test",
+  "private": false,
+  "version": "0.1.0",
+  "dependencies": {},
+  "devDependencies": {
+    "bespoken-tools": "^0.8.4",
+    "mocha": "2.5.3"
+  },
+  "engines": {
+    "node": "4.4.7"
+  },
+  "scripts": {
+    "test": "mocha '*-test.js'"
+  }
+}
